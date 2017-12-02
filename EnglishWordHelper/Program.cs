@@ -68,7 +68,7 @@ namespace EnglishWordHelper
                         
             String translate = Console.ReadLine();
 
-            if(translate.Contains(randomWord.ToString()))
+            if(randomWord.ToString().Contains(translate))
                 Console.WriteLine("Good!!!");
             else
                 Console.WriteLine("Wrong");
